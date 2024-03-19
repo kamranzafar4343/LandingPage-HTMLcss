@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html, body{
@@ -19,7 +20,7 @@ html, body{
 #left{
     width: 45%;
     height: 100%;
-    background-color: aqua; 
+    background-color: rgb(255, 255, 255); 
 }
 
 
@@ -53,3 +54,32 @@ html, body{
     height: 100%;
     background-color: blue;
 }
+
+#lnav{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#lnavright{
+    padding-top: 3px;
+}
+
+.about{
+    padding-right: 75px;
+    font-size: 20px;
+    padding-left: 250px;
+}
+
+.work{
+    padding-right: 55px;
+    font-size: 20px;
+
+}
+
+.ri-arrow-left-line{
+    padding-right: 20px;
+    padding-top: 8px;
+
+}
+
