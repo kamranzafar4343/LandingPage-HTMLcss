@@ -14,7 +14,7 @@ html, body{
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 #left{
@@ -28,41 +28,60 @@ html, body{
     
     width: 55%;
     height: 100%;
-    background-color: rgb(242, 255, 0); 
 }
 
 #rtop{
     width: 100%;
     height: 50%;
-    background-color: cadetblue;
 }
 
 #rbottom{
     width: 100%;
     height: 50%;
-    background-color: burlywood;
+    background-image: url(https://images.pexels.com/photos/5677798/pexels-photo-5677798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
 }
+
+    
 
 #rtopleft{
     width: 45%;
     height: 100%;
-    background-color: blue;
+    background-image: url(https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
 }
 
-#rtopright{
+
+#rtoprigh{
     width: 55%;
     height: 100%;
-    background-color: blue;
+    background-image: url(https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
 }
 
 #lnav{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 2.5rem;
+    /* padding: 1rem; */
+}
+
+#lnav a{
+    border: 0 1px  solid;
+    text-decoration: none;
+    color: rgb(53, 51, 51);
+} 
+
+#lnavright i{
+    color: blue;
 }
 
 #lnavright{
     padding-top: 3px;
+    align-items: center;
 }
 
 .about{
@@ -82,4 +101,3 @@ html, body{
     padding-top: 8px;
 
 }
-
